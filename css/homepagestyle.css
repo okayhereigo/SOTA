@@ -1,0 +1,95 @@
+body {
+  background: #ffffff;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  height: 90vh;
+  width: 100vw;
+}
+
+.pic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition:0.4s ease-in-out;
+
+}
+
+.pic.current {
+  opacity: 1;
+}
+
+.home-title {
+  position: relative;
+  display: flex;
+  color: white;
+  text-shadow: 2px 2px 3px black;
+  text-align: center;
+  justify-content: center;
+}
+
+h1{
+  position: absolute;
+  bottom: 63vh;
+  text-shadow: 2px 2px 3px black;
+  font-size: 3rem;
+}
+
+h3{
+  position: absolute;
+  margin-right: 10%;
+  margin-left: 10%;
+  bottom: 60vh;
+  text-shadow: 2px 2px 3px black;
+}
+
+.copyright {
+  position: relative;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  font-family: var(--Josefin);
+  color: white;
+  text-shadow: 2px 2px 3px black;
+  text-align: center;
+  justify-content: center;
+}
+
+h4{
+  position: absolute;
+  bottom: 0;
+}
+
+/* Background Images */
+.pic:first-child {
+  background: url('/assets/pexels-photo-2718796.png') no-repeat center center/cover;
+}
+.pic:nth-child(2) {
+  background: url('/assets/pexels-photo-3014661.jpeg') no-repeat center center/cover;
+}
+.pic:nth-child(3) {
+  background: url('/assets/pexels-ezekixl-akinnewu-1006227.jpg') no-repeat center 30%/cover;
+}
+.pic:nth-child(4) {
+  background: url('/assets/pexels-photo-2325622.jpeg') no-repeat center 35%/cover;
+}
+.pic:nth-child(5) {
+  background: url('/assets/pexels-photo-3548355.jpeg') no-repeat center top/cover;
+}
+.pic:nth-child(6) {
+  background: url('/assets/pexels-photo-3620343.jpeg') no-repeat center 25%/cover;
+}
+.pic:nth-child(7) {
+  background: url('/assets/pexels-photo-3061371.jpeg') no-repeat center 20%/cover;
+}
+.pic:nth-child(8) {
+  background: url('/assets/pexels-photo-3724459.jpeg') no-repeat center 30%/cover;
+}
+.pic:nth-child(9) {
+  background: url('/assets/pexels-photo-935985.jpeg') no-repeat center 25%/cover;
+}
